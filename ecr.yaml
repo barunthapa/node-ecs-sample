@@ -4,7 +4,7 @@ Resources:
   AWSTrainingTestRepo:
     Type: AWS::ECR::Repository
     Properties:
-      RepositoryName: "milap-node-test"
+      RepositoryName: "barun-node-test"
 Outputs:
   AWSTrainingTestArn:
     Value: !GetAtt AWSTrainingTestRepo.Arn
